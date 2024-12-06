@@ -43,19 +43,7 @@ def chamar_gpt(entrada_usuario):
     except Exception as e:
         return f"Ocorreu um erro ao interagir com o modelo: {e}"
 
-# Loop principal para interação do usuário
-'''
-print("Bem-vindo! Digite suas perguntas ou 'sair' para encerrar.")
-while True:
-    entrada_usuario = input("Você: ")
-    if user_input.lower() == "sair":
-        print("Encerrando a conversa. Até logo!")
-        break
-    
-    # Obter resposta do GPT-4o-mini
-    response = chamar_gpt(entrada_usuario)
-    print(f"GPT: {response}")
-'''
+
 # Montar prompt da aplicação
 # Primeira interação
 entrada_usuario = '''

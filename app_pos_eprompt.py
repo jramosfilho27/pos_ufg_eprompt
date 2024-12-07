@@ -102,5 +102,6 @@ except Exception as e:
             respostaAjustada
         )  
         print("Fomatação Json está correta.")
+        print( respostaAjustada)
     except Exception as e:
         print(e)
